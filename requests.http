@@ -1,0 +1,31 @@
+
+
+POST http://saludo-pg.onrender.com/demo/add
+Content-Type: application/x-www-form-urlencoded
+
+name=raul
+&email=raul@idat.edu.pe
+###
+
+GET http://saludo-pg.onrender.com/demo/ver/2
+
+###
+
+PUT http://saludo-pg.onrender.com/demo/edit
+Content-Type: application/x-www-form-urlencoded
+
+id=1
+&name=aparicio
+&email=aparicio@idat.edu.pe
+
+###
+
+DELETE http://saludo-pg.onrender.com/demo/del
+Content-Type: application/x-www-form-urlencoded
+
+id=1
+
+###
+
+GET http://saludo-pg.onrender.com/demo/get/report
+
